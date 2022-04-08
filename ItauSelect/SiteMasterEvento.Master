@@ -1,0 +1,32 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SiteMasterEvento.master.vb" Inherits="ItauSelect.SiteMasterEvento" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<meta http-equiv="Content-Language" content="pt-br">
+<html lang="pt-br">
+<head runat="server">
+     <meta charset="iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Psi Site do CRP SP - 11 CNP</title>
+<link href="evento.css" rel="stylesheet" type="text/css" />
+  <link id="Link1" runat="server" rel="shortcut icon" href="~/crpsp.ico" type="image/x-icon" />
+  
+    <link rel="SHORTCUT ICON" href="crpsp.ico">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="page-top">
+    <form id="form1" runat="server">
+   <div valign="center">
+     <asp:Image ID="Image1" runat="server" ImageUrl="imagens/topo.jpg" Visible="false" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+ </div>
+    </form>
+</body>
+</html>

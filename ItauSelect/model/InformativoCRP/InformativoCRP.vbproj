@@ -1,0 +1,208 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88A66165-7196-496E-9246-CADFD8C27622}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>InformativoCRP</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>InformativoCRP</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>InformativoCRP.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>InformativoCRP.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="CRPSP.DataHelper" />
+    <Import Include="CRPSP.Util" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="entidades\AlterarApresentacao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Boletins.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\CadAgenda.vb" />
+    <Compile Include="entidades\CadastroParticExterna.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Comissao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\ComunicacaoOral.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Congresso.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\CongressoMesa.vb" />
+    <Compile Include="entidades\PropostaTese.vb" />
+    <Compile Include="entidades\RodasOnline.vb" />
+    <Compile Include="entidades\Trabalhos.vb" />
+    <Compile Include="entidades\EnvioBoletins.vb" />
+    <Compile Include="entidades\ManifestoDisle.vb" />
+    <Compile Include="entidades\Operadora.vb" />
+    <Compile Include="entidades\PlanodeSaude.vb" />
+    <Compile Include="entidades\Psicologos.vb" />
+    <Compile Include="entidades\CriaUsuario.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Evento.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\FichaCadastral.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\LegislacaoEspecifica.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Link.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Noticia.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Participante.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Poster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Relatorio.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Repres_relatorio.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\Texto.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entidades\_CriaUsuario.vb" />
+    <Compile Include="Enums.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="helpers\BasePesquisa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="helpers\EnviaEmail.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="helpers\ResultadoPesquisa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="permissoes\PermissaoComissao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="permissoes\PermissaoForum.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="permissoes\PermissaoTexto.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ponto.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\crpspdatahelper\CRPSP.DataHelper.vbproj">
+      <Project>{2DAE1B27-66A8-4291-904C-0EDD5DC4FC94}</Project>
+      <Name>CRPSP.DataHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\crpsputil\CRPSP.Util.vbproj">
+      <Project>{A634B876-87B4-43D4-BAAE-D9C1D0F75CF7}</Project>
+      <Name>CRPSP.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,16 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\InformativoCRP.dll
+obj\Release\InformativoCRP.xml
+bin\InformativoCRP.dll
+bin\InformativoCRP.pdb
+bin\InformativoCRP.xml
+bin\CRPSP.DataHelper.dll
+bin\CRPSP.Util.dll
+bin\CRPSP.Util.pdb
+bin\CRPSP.Util.xml
+bin\CRPSP.DataHelper.pdb
+bin\CRPSP.DataHelper.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\InformativoCRP.dll
+obj\Debug\InformativoCRP.xml
+obj\Debug\InformativoCRP.pdb

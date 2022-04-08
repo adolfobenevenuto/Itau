@@ -1,0 +1,36 @@
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\Mostra2020.dll
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\Mostra2020.pdb
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\Mostra2020.xml
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\obj\Debug\Mostra2020.Resources.resources
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\obj\Debug\Mostra2020.vbproj.GenerateResource.Cache
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\obj\Debug\Mostra2020.dll
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\obj\Debug\Mostra2020.xml
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\obj\Debug\Mostra2020.pdb
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\CRPSP.Util.dll
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\InformativoCRP.dll
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\CRPSP.DataHelper.dll
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\CRPSP.DataHelper.pdb
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\CRPSP.DataHelper.xml
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\InformativoCRP.pdb
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\InformativoCRP.xml
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\CRPSP.Util.pdb
+C:\Users\Adolfo\Documents\Visual Studio 2008\Projects\Mostra2020\Mostra2020\bin\CRPSP.Util.xml
+D:\vs2008\Mostra2020\Mostra2020\bin\Mostra2020.dll
+D:\vs2008\Mostra2020\Mostra2020\bin\Mostra2020.pdb
+D:\vs2008\Mostra2020\Mostra2020\bin\Mostra2020.xml
+D:\vs2008\Mostra2020\Mostra2020\bin\CRPSP.Util.dll
+D:\vs2008\Mostra2020\Mostra2020\bin\InformativoCRP.dll
+D:\vs2008\Mostra2020\Mostra2020\bin\CRPSP.DataHelper.dll
+D:\vs2008\Mostra2020\Mostra2020\bin\CRPSP.DataHelper.pdb
+D:\vs2008\Mostra2020\Mostra2020\bin\CRPSP.DataHelper.xml
+D:\vs2008\Mostra2020\Mostra2020\bin\InformativoCRP.pdb
+D:\vs2008\Mostra2020\Mostra2020\bin\InformativoCRP.xml
+D:\vs2008\Mostra2020\Mostra2020\bin\CRPSP.Util.pdb
+D:\vs2008\Mostra2020\Mostra2020\bin\CRPSP.Util.xml
+D:\vs2008\Mostra2020\Mostra2020\obj\Debug\ResolveAssemblyReference.cache
+D:\vs2008\Mostra2020\Mostra2020\obj\Debug\Mostra2020.Resources.resources
+D:\vs2008\Mostra2020\Mostra2020\obj\Debug\Mostra2020.vbproj.GenerateResource.Cache
+D:\vs2008\Mostra2020\Mostra2020\obj\Debug\Mostra2020.dll
+D:\vs2008\Mostra2020\Mostra2020\obj\Debug\Mostra2020.xml
+D:\vs2008\Mostra2020\Mostra2020\obj\Debug\Mostra2020.pdb

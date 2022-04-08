@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E48C6959-48D4-47A1-918D-1CB8329C9197}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ItauSelect</RootNamespace>
+    <AssemblyName>ItauSelect</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ItauSelect.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ItauSelect.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\AjudaCusto2021\AjudaCusto2021\AjudaCusto2021\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\exportar.aspx.designer.vb">
+      <DependentUpon>exportar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\exportar.aspx.vb">
+      <DependentUpon>exportar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\sucesso.aspx.designer.vb">
+      <DependentUpon>sucesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\sucesso.aspx.vb">
+      <DependentUpon>sucesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="esqueceu.aspx.designer.vb">
+      <DependentUpon>esqueceu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="esqueceu.aspx.vb">
+      <DependentUpon>esqueceu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faleconosco.aspx.designer.vb">
+      <DependentUpon>faleconosco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faleconosco.aspx.vb">
+      <DependentUpon>faleconosco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fr_msg.aspx.designer.vb">
+      <DependentUpon>fr_msg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fr_msg.aspx.vb">
+      <DependentUpon>fr_msg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\ListControlHelper.vb" />
+    <Compile Include="helpers\NavegadorInformativo.vb" />
+    <Compile Include="helpers\SessaoInformativo.vb" />
+    <Compile Include="helpers\WebUtil.vb" />
+    <Compile Include="inscricoes.aspx.designer.vb">
+      <DependentUpon>inscricoes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inscricoes.aspx.vb">
+      <DependentUpon>inscricoes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="parecerista.aspx.designer.vb">
+      <DependentUpon>parecerista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parecerista.aspx.vb">
+      <DependentUpon>parecerista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sair.aspx.designer.vb">
+      <DependentUpon>sair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sair.aspx.vb">
+      <DependentUpon>sair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteDefault..Master.designer.vb">
+      <DependentUpon>SiteDefault..Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteDefault..Master.vb">
+      <DependentUpon>SiteDefault..Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMaster.Master.designer.vb">
+      <DependentUpon>SiteMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMaster.Master.vb">
+      <DependentUpon>SiteMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMasterEvento.Master.designer.vb">
+      <DependentUpon>SiteMasterEvento.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMasterEvento.Master.vb">
+      <DependentUpon>SiteMasterEvento.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trabalhos.aspx.designer.vb">
+      <DependentUpon>trabalhos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="trabalhos.aspx.vb">
+      <DependentUpon>trabalhos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trabalhos\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="trabalhos\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trabalhos\proposta.aspx.designer.vb">
+      <DependentUpon>proposta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="trabalhos\proposta.aspx.vb">
+      <DependentUpon>proposta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trabalhos\sair.aspx.designer.vb">
+      <DependentUpon>sair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="trabalhos\sair.aspx.vb">
+      <DependentUpon>sair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trabalhos\SiteMasterTrabalhos.Master.designer.vb">
+      <DependentUpon>SiteMasterTrabalhos.Master</DependentUpon>
+    </Compile>
+    <Compile Include="trabalhos\SiteMasterTrabalhos.Master.vb">
+      <DependentUpon>SiteMasterTrabalhos.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trabalhos\ver.aspx.designer.vb">
+      <DependentUpon>ver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="trabalhos\ver.aspx.vb">
+      <DependentUpon>ver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".travis.yml" />
+    <None Include="LICENSE" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+    <Content Include="SiteDefault..Master" />
+    <Content Include="SiteMaster.Master" />
+    <Content Include="SiteMasterEvento.Master" />
+    <Content Include="trabalhos\SiteMasterTrabalhos.Master" />
+    <None Include="vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="vendor\bootstrap\js\bootstrap.js.map" />
+    <None Include="vendor\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="vendor\jquery\jquery.min.map" />
+    <None Include="vendor\jquery\jquery.slim.min.map" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="admin\default.aspx" />
+    <Content Include="admin\exportar.aspx" />
+    <Content Include="admin\img_menu\Excel.jpg" />
+    <Content Include="admin\img_menu\excluir.gif" />
+    <Content Include="admin\img_menu\exportarexcel.gif" />
+    <Content Include="admin\img_menu\fundo-excel.gif" />
+    <Content Include="admin\img_menu\mostra_cabecalho.jpg" />
+    <Content Include="admin\img_menu\novo.gif" />
+    <Content Include="admin\img_menu\salvar.gif" />
+    <Content Include="admin\sucesso.aspx" />
+    <Content Include="CPF.htm" />
+    <Content Include="crpsp.ico" />
+    <Content Include="css\scrolling-nav.css" />
+    <Content Include="default.aspx" />
+    <Content Include="erro.htm" />
+    <Content Include="esqueceu.aspx" />
+    <Content Include="evento.css" />
+    <Content Include="faleconosco.aspx" />
+    <Content Include="fr_msg.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="imagens\erro.png" />
+    <Content Include="imagens\fundo-mostra.jpg" />
+    <Content Include="imagens\fundo-mostra.png" />
+    <Content Include="imagens\fundo.jpg" />
+    <Content Include="imagens\fundo.png" />
+    <Content Include="imagens\Logo.png" />
+    <Content Include="imagens\logo_crpsp.png" />
+    <Content Include="imagens\mostra.jpg" />
+    <Content Include="imagens\topo.jpg" />
+    <Content Include="img\fundo-mostra.jpg" />
+    <Content Include="img\fundo-mostra.png" />
+    <Content Include="img\logo.jpg" />
+    <Content Include="img\Logo.png" />
+    <Content Include="img\mostra.jpg" />
+    <Content Include="img\mostra_old.jpg" />
+    <Content Include="img\old.jpg" />
+    <Content Include="img\old1.jpg" />
+    <Content Include="inscricoes.aspx" />
+    <Content Include="janela.js" />
+    <Content Include="javascript.js" />
+    <Content Include="js\cloud-zoom.1.0.2.js" />
+    <Content Include="js\cloud-zoom.1.0.2.min.js" />
+    <Content Include="js\cloud-zoom.css" />
+    <Content Include="js\scrolling-nav.js" />
+    <Content Include="Limite.htm" />
+    <Content Include="login.aspx" />
+    <Content Include="parecerista.aspx" />
+    <Content Include="sair.aspx" />
+    <Content Include="topo-adm.jpg" />
+    <Content Include="trabalhos.aspx" />
+    <Content Include="trabalhos\default.aspx" />
+    <Content Include="trabalhos\proposta.aspx" />
+    <Content Include="trabalhos\sair.aspx" />
+    <Content Include="trabalhos\ver.aspx" />
+    <Content Include="tut.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="vendor\jquery-easing\jquery.easing.js" />
+    <Content Include="vendor\jquery-easing\jquery.easing.min.js" />
+    <Content Include="vendor\jquery\jquery.js" />
+    <Content Include="vendor\jquery\jquery.min.js" />
+    <Content Include="vendor\jquery\jquery.slim.js" />
+    <Content Include="vendor\jquery\jquery.slim.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="model\crpsputil\CRPSP.Util.vbproj">
+      <Project>{A634B876-87B4-43D4-BAAE-D9C1D0F75CF7}</Project>
+      <Name>CRPSP.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="model\InformativoCRP\InformativoCRP.vbproj">
+      <Project>{88A66165-7196-496E-9246-CADFD8C27622}</Project>
+      <Name>InformativoCRP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="trabalhos\upload\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61030</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

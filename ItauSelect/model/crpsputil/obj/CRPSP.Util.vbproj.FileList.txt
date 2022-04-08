@@ -1,0 +1,13 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\CRPSP.Util.dll
+obj\Release\CRPSP.Util.xml
+bin\CRPSP.Util.dll
+bin\CRPSP.Util.pdb
+bin\CRPSP.Util.xml
+bin\CRPSP.DataHelper.dll
+bin\CRPSP.DataHelper.pdb
+bin\CRPSP.DataHelper.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CRPSP.Util.dll
+obj\Debug\CRPSP.Util.xml
+obj\Debug\CRPSP.Util.pdb

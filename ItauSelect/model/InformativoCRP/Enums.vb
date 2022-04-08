@@ -1,0 +1,12 @@
+'//////////////////////////////////////////////////////////////////////////////
+'// Este arquivo contem as definicoes de enums utilizados no sistema
+'// Informativo CRP SP.
+'//
+'// Data de Criacao : 19-07-2004
+'//////////////////////////////////////////////////////////////////////////////
+
+Public Enum TipoPesquisa
+  QualquerPalavra = 0
+  TodasAsPalavras = 1
+  FraseExata = 2
+End Enum
